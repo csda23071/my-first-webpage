@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>私の最初のホームページ</title>
+    <style>
+        body {
+            background-color: #e8f5e8;
+            color: #2d5016;
+            font-family: 'Hiragino Sans', 'Yu Gothic', 'Meiryo', sans-serif;
+            margin: 0;
+            padding: 40px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #f0f8f0;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(45, 80, 22, 0.1);
+        }
+        
+        h1 {
+            color: #1a3d0a;
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            border-bottom: 3px solid #4a7c59;
+            padding-bottom: 15px;
+        }
+        
+        h2 {
+            color: #2d5016;
+            font-size: 2em;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .info-section {
+            background-color: #ffffff;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 10px;
+            border-left: 5px solid #4a7c59;
+        }
+        
+        .label {
+            font-weight: bold;
+            color: #1a3d0a;
+            font-size: 1.2em;
+            margin-bottom: 8px;
+        }
+        
+        .content {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+        
+        .hobbies {
+            margin-left: 10px;
+        }
+        
+        .hobbies li {
+            margin-bottom: 8px;
+            color: #2d5016;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        ul li:before {
+            content: "🌿 ";
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>私の最初のホームページ</h1>
+        
+        <h2>ようこそ</h2>
+        
+        <div class="info-section">
+            <div class="label">名前</div>
+            <div class="content">仲村 大智</div>
+        </div>
+        
+        <div class="info-section">
+            <div class="label">学科</div>
+            <div class="content">応用情報工学科</div>
+        </div>
+        
+        <div class="info-section">
+            <div class="label">趣味</div>
+            <div class="content">
+                <ul class="hobbies">
+                    <li>寝ること</li>
+                    <li>ドラマ鑑賞（最近始めた）</li>
+                    <li>ゲーム</li>
+                    <li>音楽鑑賞(藤井風、THE BLUE HEARTSなど)</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 30px; font-size: 0.9em; color: #4a7c59;">
+            Created with Claude by Anthropic
+        </div>
+    </div>
+</body>
+</html>
